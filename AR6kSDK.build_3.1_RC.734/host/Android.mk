@@ -78,7 +78,7 @@ ifndef ATH_LINUXPATH
 # Link your kernel into android SDK directory as 'kernel' directory
 # export  ATH_LINUXPATH= [Your android/kernel path ]
 ATH_CROSS_COMPILE_TYPE:=$(ATH_ANDROID_ROOT)/prebuilt/linux-x86/toolchain/arm-eabi-4.3.1/bin/arm-eabi-
-$(error define your kernel path here for ATH_LINUXPATH)
+#$(error define your kernel path here for ATH_LINUXPATH)
 endif 
 
 export  ATH_ARCH_CPU_TYPE=arm
